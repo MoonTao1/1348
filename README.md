@@ -130,7 +130,7 @@
 ## 🚀 Quantitative Analysis
 
 <div align="center">
-<img src="pic\ridar_00.png" width="1000" height="auto" />
+<img src="pic\ridar_00.png" width="600" height="auto" />
 </div>
 >COMPARISON WITH OTHER METHODS FROM TraffiicGaze TO DRFIXD(RAINY)
 
@@ -261,7 +261,7 @@
 </div>
 
 <div align="center">
-<img src="pic\vis_rainy_00.png" width="1000" height="auto" />
+<img src="pic\vis_rainy_00.png" width="800" height="auto" />
 </div>
 
 
@@ -397,7 +397,7 @@
 </div>
 
 <div align="center">
-<img src="pic\vis_night_00.png" width="1000" height="auto" />
+<img src="pic\vis_night_00.png" width="800" height="auto" />
 </div>
 
 
