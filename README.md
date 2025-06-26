@@ -13,7 +13,7 @@
 ## ✨Model
 
 <div align="center">
-<img src="pic\model.pdf" width=1000" height="auto" />
+<img src="pic\model_00.png" width=1000" height="auto" />
 </div>
 
 
