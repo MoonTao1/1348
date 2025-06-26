@@ -17,7 +17,7 @@
 </div>
 
 
->The architecture of the proposed model. The model consists of three structures, two feature extractors with shared parameters, a predictor and a domain adaptation module. The target domain data does not pass through the predictor, and only the source domain data passes through the predictor to calculate the loss value. The data of the two domains need to go through the domain classifier for domain discrimination, and a classification loss is obtained.
+>The architecture of our model. The encoder adopts a dual-branch architecture. Cross-modal fusion is then performed to integrate the two. The unlabeled target data does not go through the decoder.
 
 ## 💻Dataset
 
