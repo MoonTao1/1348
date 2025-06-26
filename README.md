@@ -22,7 +22,7 @@
 ## 💻Dataset
 
 <div align="center">
-<img src="pic\dataset.png" width="700" height="auto" />
+<img src="pic\dataset.png" width="500" height="auto" />
 </div>
 
 <div align="center">
@@ -43,13 +43,13 @@
       <td>19135</td>
     </tr>
     <tr>
-      <td>DrFixD-rainy</td>
+      <td>DrFixD(rainy)</td>
       <td>52291</td>
       <td>9816</td>
       <td>19154</td>
     </tr>
     <tr>
-      <td>DrFixD-night</td>
+      <td>DrFixD(night)</td>
       <td>41987</td>
       <td>10319</td>
       <td>14773</td>
