@@ -256,7 +256,9 @@
   </table>
 </div>
 
-
+<div align="center">
+<img src="pic\vis_rainy.png" width="1200" height="auto" />
+</div>
 
 
 
@@ -390,7 +392,9 @@
   </table>
 </div>
 
-
+<div align="center">
+<img src="pic\vis_night.png" width="1200" height="auto" />
+</div>
 
 
 ## 🚀Visualisation of intermediate results
