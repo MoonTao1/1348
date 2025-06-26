@@ -405,7 +405,7 @@
 
 >Qualitative evaluation comparison of proposed model and the other methods from sunny dataset TrafficGaze to night dataset DrFixD(night). 
 <div align="center">
-<img src="pic\night_00.png" width="600" height="auto" />
+<img src="pic\night_00.png" width="1200" height="auto" />
 </div>
 
 
