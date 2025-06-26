@@ -65,6 +65,7 @@
 <tr>
     <th>TrafficGaze</th>
     <th>DrFixD-rainy</th>
+    <th>DrFixD-night</th>
   </tr>
   <tr>
     <td>
@@ -146,92 +147,110 @@
       <tr>
         <td>CDNN</td>
         <td>0.8414</td>
-        <td>0.8570</td>
-        <td>1.5569</td>
-        <td>0.3695</td>
-        <td>0.2702</td>
-        <td>1.6868</td>
-      </tr>
-      <tr>
-        <td>ImageSig</td>
-        <td>0.6368</td>
-        <td>0.6912</td>
-        <td>0.5298</td>
-        <td>0.1404</td>
-        <td>0.1781</td>
-        <td>2.4159</td>
-      </tr>
-      <tr>
-        <td>HFT</td>
-        <td>0.7670</td>
-        <td>0.7867</td>
-        <td>1.0077</td>
-        <td>0.2311</td>
-        <td>0.2240</td>
-        <td>2.0079</td>
-      </tr>
-      <tr>
-        <td>DDC</td>
-        <td>0.7359</td>
-        <td>0.7608</td>
-        <td>0.9433</td>
-        <td>0.2492</td>
-        <td>0.2454</td>
-        <td>1.8950</td>
-      </tr>
-      <tr>
-        <td>Deep Coral</td>
-        <td>0.7132</td>
-        <td>0.7680</td>
-        <td>1.1630</td>
-        <td>0.3135</td>
-        <td>0.2909</td>
-        <td>1.8543</td>
-      </tr>
-      <tr>
-        <td>DRCN</td>
-        <td>0.6021</td>
-        <td>0.7676</td>
-        <td>0.8007</td>
-        <td>0.2307</td>
-        <td>0.2688</td>
-        <td>2.5432</td>
-      </tr>
-      <tr>
-        <td>AT</td>
-        <td>0.7498</td>
-        <td>0.7440</td>
-        <td>0.9608</td>
-        <td>0.2578</td>
-        <td>0.2634</td>
-        <td>1.7583</td>
+        <td>0.9310</td>
+        <td>3.2427</td>
+        <td>0.7034</td>
+        <td>0.5728</td>
+        <td>0.7197</td>
       </tr>
       <tr>
         <td>CPFE</td>
         <td>0.8147</td>
         <td>0.9201</td>
-        <td>2.5645</td>
+        <td>2.5645 </td>
         <td>0.5720</td>
         <td>0.4722</td>
         <td>1.0185</td>
       </tr>
       <tr>
-        <td>FBL</td>
-        <td>0.8172</td>
-        <td><strong>0.9395</strong></td>
-        <td><strong>3.7492</strong></td>
-        <td>0.7279</td>
-        <td>0.5716</td>
-        <td>0.7778</td>
+        <td>TransalNet</td>
+        <td>0.8813</td>
+        <td>0.9502</td>
+        <td>4.1481</td>
+        <td>0.8259</td>
+        <td>0.6604</td>
+        <td>0.5332</td>
+      </tr>
+      <tr>
+        <td>SCOUT</td>
+        <td>0.8215</td>
+        <td>0.9213</td>
+        <td>2.6879</td>
+        <td>0.7466</td>
+        <td>0.5985</td>
+        <td>0.6765</td>
+      </tr>
+      <tr>
+        <td>STDENet</td>
+        <td>0.8970</td>
+        <td>0.9473</td>
+        <td>3.6444 </td>
+        <td>0.7838</td>
+        <td>0.5971 </td>
+        <td>0.5866</td>
+      </tr>
+      <tr>
+        <td>MT</td>
+        <td><strong>0.8598<strong> </td>
+        <td>0.9350</td>
+        <td>3.4430</td>
+        <td>0.7319</td>
+        <td>0.5317</td>
+        <td>0.8020</td>
+      </tr>
+      <tr>
+        <td>DANN</td>
+        <td>0.8879</td>
+        <td>0.9409</td>
+        <td>3.7646</td>
+        <td>0.7711</td>
+        <td>0.5605</td>
+        <td>0.7019</td>
+      </tr>
+      <tr>
+        <td>DRCN</td>
+        <td>0.8739</td>
+        <td>0.9413</td>
+        <td>3.8196</td>
+        <td>0.7683</td>
+        <td>0.5996</td>
+        <td>0.6592</td>
+      </tr>
+      <tr>
+        <td>HD2S</td>
+        <td>0.8700</td>
+        <td>0.9112</td>
+        <td>2.3348 </td>
+        <td>0.5774</td>
+        <td>0.4733</td>
+        <td>1.0024</td>
+      </tr>
+      <tr>
+        <td>AT</td>
+        <td>0.8733</td>
+        <td>0.9394</td>
+        <td>3.6199</td>
+        <td>0.7725</td>
+        <td>0.5895</td>
+        <td>0.6660</td>
+      </tr>
+      <tr>
+        <td>MHDAN</td>
+        <td>0.8956</td>
+        <td>0.9336</td>
+        <td>2.9539 </td>
+        <td>0.6999</td>
+        <td>0.5092</td>
+        <td>0.7975</td>
       </tr>
       <tr>
         <td>Ours</td>
-        <td><strong>0.8612</strong></td>
-        <td>0.9320</td>
-        <td>3.3928</td>
-        <td><strong>0.7442</strong></td>
-        <td><strong>0.5965</strong></td>
-        <td><strong>0.7510</strong></td>
+        <td>0.8864</td>
+        <td><strong>0.9523</strong></td>
+        <td><strong>4.3103</strong></td>
+        <td><strong>0.8594</strong></td>
+        <td><strong>0.7042</strong></td>
+        <td><strong>0.4740</strong></td>
       </tr>
     </tbody>
   </table>
@@ -243,56 +262,134 @@
 
 
 
->COMPARISION OF FPS AND PARAMETERS
+>COMPARISON WITH OTHER METHODS FROM TraffiicGaze TO DRFIXD(NIGHT)
 
 <div align="center">
   <table border="1" style="margin: 0 auto;">
     <thead>
       <tr>
         <th>Model</th>
-        <th>Parameter</th>
-        <th>FPS</th>
+        <th>AUC_B↑</th>
+        <th>AUC_J↑</th>
+        <th>NSS↑</th>
+        <th>CC↑</th>
+        <th>SIM↑</th>
+        <th>KLD↓</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td>DDC</td>
-        <td><strong>9.90M</strong></td>
-        <td>82.91</td>
-      </tr>
-      <tr>
-        <td>Deep Coral</td>
-        <td>378.17M</td>
-        <td>35.85</td>
-      </tr>
-      <tr>
-        <td>DRCN</td>
-        <td>191.70M</td>
-        <td>95.14</td>
-      </tr>
-      <tr>
-        <td>AT</td>
-        <td>11.20M</td>
-        <td>170.78</td>
+        <td>CDNN</td>
+        <td>0.7618</td>
+        <td>0.8591</td>
+        <td>1.8446</td>
+        <td>0.5071</td>
+        <td>0.4002</td>
+        <td>1.2286</td>
       </tr>
       <tr>
         <td>CPFE</td>
-        <td>16.38M</td>
-        <td>46.76</td>
+        <td>0.7992</td>
+        <td>0.9111</td>
+        <td>3.2687</td>
+        <td>0.6979</td>
+        <td>0.5737</td>
+        <td>0.7530</td>
       </tr>
       <tr>
-        <td>FBL</td>
-        <td>87.48M</td>
-        <td>33.19</td>
+        <td>TransalNet</td>
+        <td>0.8404</td>
+        <td>0.9390</td>
+        <td>3.2687</td>
+        <td>0.6979</td>
+        <td>0.5737</td>
+        <td>0.7530</td>
+      </tr>
+      <tr>
+        <td>SCOUT</td>
+        <td>0.8269</td>
+        <td>0.9122</td>
+        <td>2.6843</td>
+        <td>0.6091</td>
+        <td>0.4960</td>
+        <td>1.0103</td>
+      </tr>
+      <tr>
+        <td>STDENet</td>
+        <td>0.8676</td>
+        <td>0.9345 </td>
+        <td>3.1000 </td>
+        <td>0.7105</td>
+        <td>0.5687</td>
+        <td>0.7531</td>
+      </tr>
+      <tr>
+        <td>MT</td>
+        <td>0.8212</td>
+        <td>0.9204</td>
+        <td>3.0749</td>
+        <td>0.6752</td>
+        <td>0.5474 </td>
+        <td>0.8865</td>
+      </tr>
+      <tr>
+        <td>DANN</td>
+        <td>0.8342</td>
+        <td>0.9021</td>
+        <td>2.4349</td>
+        <td>0.5414</td>
+        <td>0.4024</td>
+        <td>1.2041</td>
+      </tr>
+      <tr>
+        <td>DRCN</td>
+        <td>0.8224</td>
+        <td>0.9174</td>
+        <td>2.6752</td>
+        <td>0.6258</td>
+        <td>0.5099</td>
+        <td>0.9422</td>
+      </tr>
+      <tr>
+        <td>HD2S</td>
+        <td>0.8699</td>
+        <td>0.9113</td>
+        <td>2.3358</td>
+        <td>0.5774</td>
+        <td>0.4733</td>
+        <td>1.0028</td>
+      </tr>
+      <tr>
+        <td>AT</td>
+        <td>0.8650</td>
+        <td>0.9385</td>
+        <td>3.0265</td>
+        <td>0.6971</td>
+        <td>0.5696</td>
+        <td>0.7431</td>
+      </tr>
+      <tr>
+        <td>MHDAN</td>
+        <td></strong>0.8763</strong></td>
+        <td>0.9109</td>
+        <td>2.5688 </td>
+        <td>0.6403</td>
+        <td>0.4701</td>
+        <td>0.9794</td>
       </tr>
       <tr>
         <td>Ours</td>
-        <td><strong>9.90M</strong></td>
-        <td><strong>173.79</strong></td>
+        <td></strong>0.8763</strong></td>
+        <td><strong>0.9401</strong></td>
+        <td><strong>3.3666</strong></td>
+        <td><strong>0.7498</strong></td>
+        <td><strong>0.5976</strong></td>
+        <td><strong>0.6528</strong></td>
       </tr>
     </tbody>
   </table>
 </div>
+
 
 
 
