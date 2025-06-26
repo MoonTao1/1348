@@ -257,7 +257,7 @@
 </div>
 
 <div align="center">
-<img src="pic\vis_rainy.png" width="1200" height="auto" />
+<img src="pic\vis_rainy_00.png" width="1200" height="auto" />
 </div>
 
 
@@ -393,7 +393,7 @@
 </div>
 
 <div align="center">
-<img src="pic\vis_night.png" width="1200" height="auto" />
+<img src="pic\vis_night_00.png" width="1200" height="auto" />
 </div>
 
 
