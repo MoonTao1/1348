@@ -419,6 +419,8 @@
 
 
 ## 🛠️ Deployment **[🔁](#🔥Update)**
+### 	Environment
+  👉*If you wish to train with our model, please deploy the environment below.*
 
 ### 	Run train 
 
