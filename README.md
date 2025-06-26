@@ -370,7 +370,7 @@
       </tr>
       <tr>
         <td>MHDAN</td>
-        <td></strong>0.8763</strong></td>
+        <td><strong>0.8763</strong></td>
         <td>0.9109</td>
         <td>2.5688 </td>
         <td>0.6403</td>
@@ -379,7 +379,7 @@
       </tr>
       <tr>
         <td>Ours</td>
-        <td></strong>0.8763</strong></td>
+        <td><strong>0.8763</strong></td>
         <td><strong>0.9401</strong></td>
         <td><strong>3.3666</strong></td>
         <td><strong>0.7498</strong></td>
