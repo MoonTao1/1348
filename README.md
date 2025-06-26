@@ -48,6 +48,12 @@
       <td>9816</td>
       <td>19154</td>
     </tr>
+    <tr>
+      <td>DrFixD-night</td>
+      <td>41987</td>
+      <td>10319</td>
+      <td>14773</td>
+    </tr>
   </tbody>
 </table>
 </div>
@@ -97,6 +103,24 @@
       &emsp;&emsp;|——train.json<br>
       &emsp;&emsp;|——valid.json
     </td>
+        <td>
+      ./DrFixD-night<br>
+      &emsp;&emsp;|——fixdata<br>
+      &emsp;&emsp;|&emsp;&emsp;|——fixdata1.mat<br>
+      &emsp;&emsp;|&emsp;&emsp;|——fixdata2.mat<br>
+      &emsp;&emsp;|&emsp;&emsp;|—— ... ...<br>
+      &emsp;&emsp;|&emsp;&emsp;|——fixdata16.mat<br>
+      &emsp;&emsp;|——trafficframe<br>
+      &emsp;&emsp;|&emsp;&emsp;|——01<br>
+      &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|——000001.jpg<br>
+      &emsp;&emsp;|&emsp;&emsp;|&emsp;&emsp;|—— ... ...<br>
+      &emsp;&emsp;|&emsp;&emsp;|——02<br>
+      &emsp;&emsp;|&emsp;&emsp;|—— ... ...<br>
+      &emsp;&emsp;|&emsp;&emsp;|——16<br>
+      &emsp;&emsp;|——test.json<br>
+      &emsp;&emsp;|——train.json<br>
+      &emsp;&emsp;|——valid.json
+    </td>
   </tr>
 </table>
 </div>
@@ -120,8 +144,8 @@
     </thead>
     <tbody>
       <tr>
-        <td>Itti</td>
-        <td>0.8426</td>
+        <td>CDNN</td>
+        <td>0.8414</td>
         <td>0.8570</td>
         <td>1.5569</td>
         <td>0.3695</td>
