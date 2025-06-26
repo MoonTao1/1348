@@ -22,7 +22,7 @@
 ## 💻Dataset
 
 <div align="center">
-<img src="pic\12.png" width="700" height="auto" />
+<img src="pic\dataset.png" width="700" height="auto" />
 </div>
 
 <div align="center">
