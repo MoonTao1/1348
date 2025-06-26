@@ -10,7 +10,7 @@
 
 **[2025.5.26]** 🎈We will submit the article to ***PRCV*** (The 8th Chinese Conference on Pattern Recognition and Computer Vision).😃
 
-## ✨Model
+## ✨Model  
 
 <div align="center">
 <img src="pic\model_00.png" width=1000" height="auto" />
@@ -397,15 +397,15 @@
 >Qualitative evaluation comparison of proposed model and the other methods from sunny dataset TrafficGaze to rainy dataset DrFixD(rainy). The circles highlight objects/areas in the driving scene that disrupt the driver's attention.
 
 <div align="center">
-<img src="pic\AM.png" width="1200" height="auto" />
+<img src="pic\rainy_00.png" width="1200" height="auto" />
 </div>
 
 
 
->Visualization results of rainy weather forecast under complex scenarios, yellow circles indicate unrelated factors that may capture the driver's attention, including (a) The wiper blocks the line of sight, (b) Reflection from stagnant water, (c) Glare in the taillights of vehicles ahead in dim light.
 
+>Qualitative evaluation comparison of proposed model and the other methods from sunny dataset TrafficGaze to night dataset DrFixD(night). 
 <div align="center">
-<img src="pic\11.png" width="600" height="auto" />
+<img src="pic\night_00.png" width="600" height="auto" />
 </div>
 
 
