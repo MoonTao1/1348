@@ -4,7 +4,7 @@
 
 ## 📰 News
 
-**[2025.2.15]** 🎈We have completed the training of the model and verified that it successfully enables the model to adapt to the rainy scenario. 
+**[2025.2.15]** 🎈We have completed the training of the model and verified that it successfully enables the model to adapt to the rainy and night scenarios. 
 
 **[2025.4.07]** 🎈We have conducted more detailed experiments, performing both qualitative and quantitative comparisons with other advanced methods, as well as a parameter comparison.
 
