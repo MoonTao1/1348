@@ -12,7 +12,7 @@ from clip import *
 # device = torch.device('cuda:0')
 # backbone = ['RN50', 'RN101', 'RN50x4', 'RN50x16', 'ViT-B/32', 'ViT-B/16']
 # id = 4
-class DeepLab(nn.Module):
+class Model(nn.Module):
     def __init__(self, backbone='resnet', output_stride=16, num_classes=1,
                  sync_bn=True, freeze_bn=False):
         super(DeepLab, self).__init__()
@@ -29,12 +29,12 @@ class DeepLab(nn.Module):
         self.decoder = build_decoder(num_classes, backbone, BatchNorm)
 
 
-        self.domain_classifier = nn.Sequential()
-        self.domain_classifier.add_module('d_fc1', nn.Linear(256 * 16 * 16, 100))
-        self.domain_classifier.add_module('d_bn1', nn.BatchNorm1d(100))
-        self.domain_classifier.add_module('d_relu1', nn.ReLU(True))
-        self.domain_classifier.add_module('d_fc2', nn.Linear(100, 2))
-        self.domain_classifier.add_module('d_softmax', nn.LogSoftmax(dim=1))
+        # self.domain_classifier = nn.Sequential()
+        # self.domain_classifier.add_module('d_fc1', nn.Linear(256 * 16 * 16, 100))
+        # self.domain_classifier.add_module('d_bn1', nn.BatchNorm1d(100))
+        # self.domain_classifier.add_module('d_relu1', nn.ReLU(True))
+        # self.domain_classifier.add_module('d_fc2', nn.Linear(100, 2))
+        # self.domain_classifier.add_module('d_softmax', nn.LogSoftmax(dim=1))
 
         self.DSCClassifier = DSCClassifier(in_channels=256, num_classes=2)
 
