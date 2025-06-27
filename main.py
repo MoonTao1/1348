@@ -39,7 +39,7 @@ warnings.simplefilter("ignore")
 
 
 
-ckpts = '/data9102/workspace/mwt/DANN-clip-cls-night'
+ckpts = ''
 
 log_file = os.path.join(ckpts + "/train_log.txt")
 logging.basicConfig(level=logging.INFO, format='%(asctime)s %(message)s', filename=log_file)
@@ -64,7 +64,7 @@ def main():
 
     train_rainy_loader, valid_rainy_loader, test_rainy_loader = build_dataset(args=args)
     args.category = 'TrafficGaze'
-    args.root = '/data/workspace/mwt/traffic_dataset/'
+    args.root = ''
     train_loader, valid_loader, _ = build_dataset(args=args)
 
     # model = build_model(args=args)
