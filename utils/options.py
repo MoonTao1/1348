@@ -31,9 +31,9 @@ parser.add_argument('--img_shape', default=(256, 256), type=lambda s: tuple(map(
 parser.add_argument('--category', default='DrFixD_rainy', type=str, help='select [BDDA or TrafficGaze or DrFixD_rainy]')
 # parser.add_argument('--category_night', default='night', type=str, help='select [BDDA or TrafficGaze or DrFixD_rainy]')
 # DrFixD_rainy salmm
-# parser.add_argument('--root', default='/data/workspace/mwt/traffic_dataset/', type=str)
-parser.add_argument('--root', default='/data/workspace/zcm/dataset/DrFixD-rainy/', type=str)
-# parser.add_argument('--root', default='/data9102/workspace/mwt/dataset/night/', type=str)
+# parser.add_argument('--root', default='/traffic_dataset/', type=str)
+parser.add_argument('--root', default='/dataset/DrFixD-rainy/', type=str)
+# parser.add_argument('--root', default='/dataset/night/', type=str)
 parser.add_argument(
     '--out-stride',
     type=int,
