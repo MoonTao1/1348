@@ -1,4 +1,4 @@
-# Driving Fixation Prediction via Unsupervised Domain Adaptation for Sunny-to-Rainy Traffic Scenes
+# Driving Fixation Prediction for Clear-to-Adverse Weather Scenes via Adversarial Unsupervised Domain Adaptation
 
 ​	[note] We will release our complete code after the paper is **accepted** ✔️! Please look forward to it.🕓
 
@@ -130,7 +130,7 @@
 ## 🚀 Quantitative Analysis
 
 <div align="center">
-<img src="pic\ridar_00.png" width="600" height="auto" />
+<img src="pic\ridar_s_00.png" width="600" height="auto" />
 </div>
 >COMPARISON WITH OTHER METHODS FROM TraffiicGaze TO DRFIXD(RAINY)
 
