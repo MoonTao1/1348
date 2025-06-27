@@ -17,7 +17,7 @@ import torch
 import warnings
 import argparse
 import pickle
-from networks.deeplabv3 import *
+from networks.model import *
 import logging
 import time
 from utils.mid_metrics import cc, sim, kldiv
@@ -68,7 +68,7 @@ def main():
     train_loader, valid_loader, _ = build_dataset(args=args)
 
     # model = build_model(args=args)
-    model = DeepLab(num_classes=1, backbone='mobilenet', output_stride=args.out_stride,
+    model = Model(num_classes=1, backbone='mobilenet', output_stride=args.out_stride,
                                 sync_bn=args.sync_bn, freeze_bn=args.freeze_bn)
     params = model.parameters()
     cudnn.benchmark = True
