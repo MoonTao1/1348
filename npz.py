@@ -11,7 +11,7 @@ import warnings
 from utils.options import parser
 # from utils.bulid_models import build_model
 from utils.build_datasets import build_dataset
-from networks.deeplabv3 import *
+from networks.model import *
 from utils.options import parser
 from utils.build_datasets import build_dataset
 
@@ -28,14 +28,14 @@ def main():
     torch.cuda.manual_seed(2017)
     random.seed(2017)
     np.random.seed(2017)
-    ckpts = '/data9102/workspace/mwt/Experiment/night/deeplab/'
+    ckpts = ''
 
-    model = DeepLab(num_classes=1, backbone='mobilenet', output_stride=args.out_stride,
+    model = Model(num_classes=1, backbone='mobilenet', output_stride=args.out_stride,
                     sync_bn=args.sync_bn, freeze_bn=args.freeze_bn)
     # print len(train_imgs),train_imgs[0]
     # print train_imgs
     # exit(0)
-    file_name = os.path.join('/data9102/workspace/mwt/DANN-clip-cls-night/model_best.tar')
+    file_name = os.path.join('/model_best.tar')
     _, _, test_rainy_loader = build_dataset(args=args)
 
     # dual_train_dataset = DualDataset(train_loader.dataset, train_rainy_loader.dataset)
