@@ -74,60 +74,9 @@ def main():
     cudnn.benchmark = True
     optimizer = torch.optim.Adam(params, args.lr, weight_decay=args.weight_decay)
 
-    # root = '/data/workspace/mwt/traffic_dataset/trafficframe/'
-    # root1 = '/data/workspace/zcm/dataset/DrFixD-rainy/trafficframe/'
-    # train_imgs = [json.loads(line) for line in open(root + 'train.json')]
-    # train_rain_imgs = [json.loads(line) for line in open(root1 + 'train.json')]
-    # valid_imgs = [json.loads(line) for line in open(root + 'valid.json')]
-    # valid_rain_imgs = [json.loads(line) for line in open(root1 + 'valid.json')]
-
-
-    # test_imgs = [json.loads(line) for line in open(root + 'n_test.json')]
-    # test_rain_imgs = [json.loads(line) for line in open(root1 + 'n_test.json')]
-    # print len(train_imgs),train_imgs[0]
-    # print train_imgs
-    # exit(0)
-
     best_loss = float('inf')
     file_name = os.path.join(ckpts, 'model_best.tar')
     print('-------------- New training session, LR = %.3f ----------------' %(args.lr))
-    # print('-- length of training images = %d--length of valid images = %d--' % (len(train_imgs)+len(train_rain_imgs), len(valid_imgs)++len(valid_rain_imgs)))
-    # train_loader = DataLoader(
-    #     ImageList(root, train_imgs, for_train=True),
-    #     batch_size=args.batch_size, shuffle=False,
-    #     num_workers=args.workers,
-    #     pin_memory=True)
-    #
-    # train_rainy_loader = DataLoader(
-    #     ImageList_r(root1, train_rain_imgs,for_train=True),
-    #     batch_size=args.batch_size, shuffle=False,
-    #     num_workers=args.workers,
-    #     pin_memory=True)
-    #
-    # valid_loader = DataLoader(
-    #     ImageList(root, valid_imgs),
-    #     batch_size=args.batch_size, shuffle=False,
-    #     num_workers=args.workers,
-    #     pin_memory=True)
-    #
-    # valid_rainy_loader = DataLoader(
-    #     ImageList_r(root1, valid_rain_imgs),
-    #     batch_size=args.batch_size, shuffle=False,
-    #     num_workers=args.workers,
-    #     pin_memory=True)
-
-    # test_loader = DataLoader(
-    #     ImageList(root, test_imgs),
-    #     batch_size=args.batch_size, shuffle=False,
-    #     num_workers=args.workers,
-    #     pin_memory=True)
-    #
-    # test_rainy_loader = DataLoader(
-    #     ImageList_r(root1, test_rain_imgs),
-    #     batch_size=args.batch_size, shuffle=False,
-    #     num_workers=args.workers,
-    #     pin_memory=True)
-    # load model
 
     # setup optimizer
 
@@ -135,20 +84,7 @@ def main():
     criterion = torch.nn.BCELoss()
     # criterion_domain = nn.BCEWithLogitsLoss()
     criterion_domain = nn.NLLLoss()
-    # device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
-    # if args.resume:
-    #     if os.path.isfile(args.resume):
-    #         print("=> loading checkpoint '{}'".format(args.resume))
-    #         checkpoint = torch.load(args.resume)  # 确保 checkpoint 在 GPU
-    #         args.start_epoch = checkpoint['epoch']
-    #         model.load_state_dict(checkpoint['state_dict'])
-    #         optimizer.load_state_dict(checkpoint['optim_dict'])
-    #
-
-    #         print("=> loaded checkpoint '{}' (epoch {})".format(args.resume, checkpoint['epoch']))
-    #     else:
-    #         print("=> no checkpoint found at '{}'".format(args.resume))
 
     device = torch.device('cuda:0' if torch.cuda.is_available() else 'cpu')
 
