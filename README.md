@@ -20,7 +20,7 @@
 >The architecture of our model. The encoder adopts a dual-branch architecture. Cross-modal fusion is then performed to integrate the two. The unlabeled target data does not go through the decoder.
 
 <div align="center">
-<img src="pic\vis_00.png" width=1000" height="auto" />
+<img src="pic\vis_00.png" width=800" height="auto" />
 </div>
 >The performance of our model. <span style="color:red;">■</span> represents elements that are not easily perceived during driving yet have the potential to cause accidents. <span style="color:#A67447;">●</span> indicates distracting factors that are unrelated to the driving task.
 
