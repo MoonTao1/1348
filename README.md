@@ -22,7 +22,9 @@
 <div align="center">
 <img src="pic\vis_00.png" width=800" height="auto" />
 </div>
->The performance of our model. <span style="color:red;">■</span> represents elements that are not easily perceived during driving yet have the potential to cause accidents. <span style="color:#A67447;">●</span> indicates distracting factors that are unrelated to the driving task.
+>- 🟥 The red square represents elements that are not easily perceived during driving yet have the potential to cause accidents.
+- 🟤 The brown circle indicates distracting factors that are unrelated to the driving task.
+
 
 ## 💻Dataset
 
