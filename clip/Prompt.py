@@ -15,7 +15,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 model.to(device)
 
 # 数据路径
-root = "/data9102/workspace/mwt/dataset/night/trafficframe/"
+root = "/dataset/night/trafficframe/"
 index_file = root + "test.json"
 
 # 读取图像路径（每行是一个 JSON 字符串，如 "01/000006.jpg"）
