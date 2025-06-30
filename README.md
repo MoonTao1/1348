@@ -186,7 +186,7 @@
       </tr>
       <tr>
         <td>STDENet</td>
-        <td>0.8970</td>
+        <td><strong>0.8970</strong>strong></td>
         <td>0.9473</td>
         <td>3.6444 </td>
         <td>0.7838</td>
@@ -195,7 +195,7 @@
       </tr>
       <tr>
         <td>MT</td>
-        <td><strong>0.8598<strong> </td>
+        <td>0.8598</td>
         <td>0.9350</td>
         <td>3.4430</td>
         <td>0.7319</td>
