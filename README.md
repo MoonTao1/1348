@@ -193,7 +193,7 @@
       </tr>
       <tr>
         <td>STDENet</td>
-        <td><strong>0.8970</strong>strong></td>
+        <td><strong>0.8970</strong></td>
         <td>0.9473</td>
         <td>3.6444 </td>
         <td>0.7838</td>
