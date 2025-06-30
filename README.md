@@ -23,7 +23,7 @@
 <img src="pic\vis_00.png" width=800" height="auto" />
 </div>
 >- 🟥 The red square represents elements that are not easily perceived during driving yet have the potential to cause accidents.
-- 🟤 The brown circle indicates distracting factors that are unrelated to the driving task.
+ - 🟡 Indicates distracting factors unrelated to the driving task.
 
 
 ## 💻Dataset
